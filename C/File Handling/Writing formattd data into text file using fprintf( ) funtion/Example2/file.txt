@@ -1,0 +1,8 @@
+Mark Zuckerburg,200,.1
+Steve Jobes,300,.2
+Tim Berners-Lee,400,.3
+Dennis Ritchie,202,.34
+Steven Spielberg,489,.5
+Arnold Schwarzenegger,938,.8
+Larry Page,098,.89
+Sergey Brin,069,.69
