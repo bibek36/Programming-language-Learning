@@ -1,0 +1,41 @@
+//Opening the text file in read mode
+    FILE *fp,*fpr;
+    fp = fopen("profit_knapsack.txt","r");
+    if(fp==NULL)
+    {
+        printf("\nUnable to open the profit file\n");
+        return 1;
+    }
+
+    fpr = fopen("weight_knapsack.txt","r");
+    if(fpr==NULL)
+    {
+        printf("\nUnable to open the weight file\n");
+        return 1;
+    }
+
+    //Printing the Content of file
+    int profit[n];
+    int weight[n];
+    printf("The content of the files:\n");
+    printf("Profit: ");
+    while(1)
+    {
+        fscanf(fp,"%d",profit);
+        for(i=0;i<n;printf("%d",profit[i]),i++);
+        if(feof(fp))
+            break;
+    }
+
+    printf("Weight: ");
+    while(1)
+    {
+        fscanf(fpr,"%d",weight);
+        printf("%s",weight);
+        if(feof(fpr))
+            break;
+    }
+
+    fclose(fp);
+    fclose(fpr);
+    return 0;
