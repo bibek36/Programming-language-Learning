@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1571931623 source:f:\programming\c programming\project\data structure\graph\dfs\main.c
+	<stdio.h>
+	<stdlib.h>
+	"linked_list.h"
+	"queue.h"
+
+1571921930 f:\programming\c programming\project\data structure\graph\dfs\linked_list.h
+	<stdio.h>
+	<stdlib.h>
+
+1571925239 f:\programming\c programming\project\data structure\graph\dfs\queue.h
+	<stdio.h>
+	<stdlib.h>
+

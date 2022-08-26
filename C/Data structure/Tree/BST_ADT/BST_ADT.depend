@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1572824146 source:f:\programming\c programming\project\data structure\tree\bst_adt\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1572822193 f:\programming\c programming\project\data structure\tree\bst_adt\stack.h
+	<stdio.h>
+	<stdlib.h>
+
